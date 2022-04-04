@@ -13,3 +13,5 @@ All the icons that are removed are placed in here, **except** the ones that are 
   - *Reason:* [Doesn't support 2FA](https://github.com/LemmyNet/lemmy/issues/1434#issuecomment-904770838)
 - **Mixer** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Mixer.svg))
   - *Reason:* Dead service
+- **PeerTube** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/PeerTube.svg))
+  - *Reason:* [Doesn't support 2FA](https://github.com/Chocobozzz/PeerTube/issues/1146)
