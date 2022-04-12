@@ -1,4 +1,4 @@
-# Removal reasons
+# List of removed icons and removal reasons
 All the icons that are removed are placed in here, **except** the ones that are requested taken down by trademark owners.
 
 - **Adobe** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Adobe.svg))
