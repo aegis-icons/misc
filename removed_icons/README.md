@@ -16,7 +16,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
 - **Mixer** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Mixer.svg))
   - *Reason:* Service no longer exists.
 - **NewEgg alt** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Newegg%20alt.svg))
-  - *Reason:* Not based of official branding.
+  - *Reason:* Icon's logo isn't based of official branding.
 - **PeerTube** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/PeerTube.svg))
   - *Reason:* [Doesn't support 2FA](https://github.com/Chocobozzz/PeerTube/issues/1146).
 - **Stash** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Stash.svg))
