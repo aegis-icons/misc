@@ -1,7 +1,7 @@
 # List of removed icons and removal reasons
 All the icons that are removed are placed in here, **except** the ones that are requested taken down by trademark owners.
 
-- **Acorns** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Adobe.svg))
+- **Acorns** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Acorns.svg))
   - *Reason:* [No mentions of 3rd party 2FA option](https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/).
 - **Adobe** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Adobe.svg))
   - *Reason:* [No mentions of 3rd party 2FA option](https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html).
