@@ -2,9 +2,9 @@
 All the icons that are removed are placed in here, **except** the ones that are requested taken down by trademark owners.
 
 - **Acorns** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Acorns.svg))
-  - *Reason:* [No mentions of 3rd party 2FA option](https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/).
+  - *Reason:* [No mentions of 2FA app option](https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/).
 - **Adobe** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Adobe.svg))
-  - *Reason:* [No mentions of 3rd party 2FA option](https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html).
+  - *Reason:* [Not possible to setup 3rd party 2FA app option anymore](https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html).
 - **DueDEX** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/DueDEX.svg))
   - *Reason:* Service no longer exists.
 - **Forum Italia** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Forum%20Italia.svg))
@@ -20,4 +20,4 @@ All the icons that are removed are placed in here, **except** the ones that are 
 - **PeerTube** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/PeerTube.svg))
   - *Reason:* [Doesn't support 2FA](https://github.com/Chocobozzz/PeerTube/issues/1146).
 - **Stash** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Stash.svg))
-  - *Reason:* [No mentions of 3rd party 2FA option](https://ask.stash.com/ask/what-is-two-factor-authentication/).
+  - *Reason:* [No mentions of 2FA app option](https://ask.stash.com/ask/what-is-two-factor-authentication/).
