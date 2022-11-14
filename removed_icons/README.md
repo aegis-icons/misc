@@ -1,4 +1,5 @@
 # List of removed icons and removal reasons
+
 All the icons that are removed are placed in here, **except** the ones that are requested taken down by trademark owners.
 
 Click the SVG link to see the icon file.
@@ -20,7 +21,5 @@ Click the SVG link to see the icon file.
   - *Reason:* Service no longer exists.
 - **NewEgg alt** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Newegg%20alt.svg))
   - *Reason:* Icon's logo isn't based of official branding.
-- **PeerTube** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/PeerTube.svg))
-  - *Reason:* [Doesn't support 2FA](https://github.com/Chocobozzz/PeerTube/issues/1146).
 - **Stash** ([SVG](https://github.com/aegis-icons/misc/blob/main/removed_icons/Stash.svg))
   - *Reason:* [No mentions of 2FA app option](https://ask.stash.com/ask/what-is-two-factor-authentication/).
