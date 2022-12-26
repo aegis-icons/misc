@@ -2,7 +2,7 @@
 
 All the icons that are removed are placed in here, **except** the ones that are requested taken down by trademark owners.
 
-Click the SVG link to see the icon file.
+*Click the SVG link to see the icon file.*
 
 - **Acorns** ([`SVG`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Acorns.svg))
   - *Reason:* [No mentions of 2FA app option](https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/).
@@ -30,3 +30,9 @@ Click the SVG link to see the icon file.
   - *Reason:* Service no longer exists.
 - **Stash** ([`SVG`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Stash.svg))
   - *Reason:* [No mentions of 2FA app option](https://ask.stash.com/ask/what-is-two-factor-authentication/).
+  
+## Generic icons
+
+In December 2022, aegis-icons introducted redesigned set of generic icons (based of [Phosphor Icons](https://phosphoricons.com/)), with new background color that fits better for modern Android. These icons have been given more thought to symbol size, clarity, uniformity and style. In addition, seven new generic icons were released.
+
+**[File listing of generic icons with old design](https://github.com/aegis-icons/misc/tree/main/removed_icons/Generic)**.
