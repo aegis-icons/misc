@@ -21,7 +21,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
 - **Lemmy**
   - *SVGs:* [`primary`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Lemmy.svg), [`bg.var`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Lemmy%20bg.var.svg).
   - *Reason:* [Doesn't support 2FA](https://github.com/LemmyNet/lemmy/issues/1434#issuecomment-904770838).
-- **Linode**
+- **Linode** ([`SVG`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Linode.svg))
   - *Reason:* merged with Akamai. Akamai doesn't have TOTP based of research (if it does, please request it).
 - **Mixer** ([`SVG`](https://github.com/aegis-icons/misc/blob/main/removed_icons/Mixer.svg))
   - *Reason:* Service no longer exists.
