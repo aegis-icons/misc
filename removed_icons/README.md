@@ -10,7 +10,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
   - *Reason:* [Not possible to setup 3rd party 2FA app option anymore](https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html).
 - **BlockFi** ([`SVG`](../../main/removed_icons/BlockFi.svg))
   - *Reason:* See FTX, they own them.
-- **Celcius** ([`SVG`](../../main/removed_icons/Celcius.svg))
+- **Celsius** ([`SVG`](../../main/removed_icons/Celsius.svg))
   - *Reason:* Scam / bankruptcy.
 - **DueDEX** ([`SVG`](../../main/removed_icons/DueDEX.svg))
   - *Reason:* Service no longer exists.
