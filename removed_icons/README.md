@@ -22,8 +22,6 @@ All the icons that are removed are placed in here, **except** the ones that are 
   - *Reason:* Service no longer exists.
 - **Lemmy** (*SVGs:* [`primary`](../../main/removed_icons/Lemmy.svg), [`bg.var`](../../main/removed_icons/Lemmy%20bg.var.svg))
   - *Reason:* [Doesn't support 2FA](https://github.com/LemmyNet/lemmy/issues/1434#issuecomment-904770838).
-- **Linode** ([`SVG`](../../main/removed_icons/Linode.svg))
-  - *Reason:* [merged with Akamai](https://www.linode.com/blog/linode/a-bold-new-approach-to-the-cloud/). Akamai doesn't have TOTP based of research (if it does, please request it).
 - **Mixer** ([`SVG`](../../main/removed_icons/Mixer.svg))
   - *Reason:* Service no longer exists.
 - **NewEgg alt** ([`SVG`](../../main/removed_icons/Newegg%20alt.svg))
