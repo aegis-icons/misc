@@ -32,7 +32,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
   - *Reason:* Icon's logo isn't based of official branding.
 - **Nuri / Bitwala** (*SVGs:* [`Nuri primary`](../../main/removed_icons/Nuri.svg), [`Nuri bg.var`](../../main/removed_icons/Nuri%20bg.var.svg), [`Bitwala primary`](../../main/removed_icons/Bitwala.svg))
   - *Reason:* Service no longer exists.
-- **Media Temple** (*SVGs:* [`primary`](../../main/removed_icons/Media%20Temple.svg), [`bg.var`](../../main/removed_icons/Media%20Temple%20bg.var.svg))
+- **Phabricator** ([`SVG`](../../main/removed_icons/Phabricator.svg))
   - *Reason:* "Effective June 1, 2021: Phabricator is no longer actively maintained."
 - **Player.me** ([`SVG`](../../main/removed_icons/Player.me.svg))
   - *Reason:* Service no longer exists.
