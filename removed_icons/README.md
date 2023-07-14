@@ -56,7 +56,7 @@ This is controversal and admittedly @[krisu5](https://github.com/krisu5)'s perso
    - See: [FTX](https://en.wikipedia.org/wiki/FTX#Legal_process), [Celsius](https://www.forbes.com/sites/mitchellmartin/2023/01/05/celsius-founder-mashinsky-hit-with-fraud-suit-by-new-york-state/), [Samtrade FX](https://www.straitstimes.com/singapore/courts-crime/online-trading-platform-samtrade-fx-under-probe-by-police-mas-3-arrested), [Vauld](https://techcrunch.com/2022/08/12/india-seizes-46-million-from-crypto-exchange-vauld-in-money-laundering-probe/) etc.
 3. Checking regulation is the only way to *somewhat* certainly say of the legality of the company.
 
-If we want only icons of truly trustworthy services, then this decision was necessary. Exceptions do occur for other kind of services too, but those are easier to handle in my option.
+If we want only icons of truly trustworthy services, then this decision was necessary. Exceptions do occur for other kind of services too, but those are easier to handle in my opinion.
 
 **Reminder:** we are not only source for the icons and not associated with Beem Development, the developers of Aegis. You can download images from the net and use them as icons, create yourself or use one of the many generic icons from our pack. You can even create your own icon pack if you want to.
 
