@@ -43,7 +43,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
 
 In December 2022, aegis-icons introducted redesigned set of generic icons (based of [Phosphor Icons](https://phosphoricons.com/)), with new background color that fits better for modern Android. These icons have been given more thought to symbol size, clarity, uniformity and style. In addition, seven new generic icons were released. [Reasons for redesign can be found from here](https://github.com/aegis-icons/aegis-icons/issues/722).
 
-**[File listing of generic icons with old design](https://github.com/aegis-icons/misc/tree/main/removed_icons/Generic)**.
+**[File listing of generic icons with old design](https://github.com/aegis-icons/misc/tree/main/removed_icons/Generic)** (24 icons in total).
 
 ## Removal of "unregulated (crypto) currency trading / investing platforms" related icons
 
@@ -61,4 +61,4 @@ If we want only icons of truly trustworthy services, then this decision was nece
 **Reminder:** we are not only source for the icons and not associated with Beem Development, the developers of Aegis. You can download images from the net and use them as icons, create yourself or use one of the many generic icons from our pack. You can even create your own icon pack if you want to.
 
 - **[File listing of unregulated currency trading / investing platform icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/Unregulated%20trading%20and%20investing%20platforms)** (87 icons in total)
-- [Site list with reasons of removals](https://krisu.notion.site/699da4ac7dce464f8690e032bb340fc5) (75 services)
+- [Site list with reasons of removals](https://krisu.notion.site/699da4ac7dce464f8690e032bb340fc5) (75 services).
