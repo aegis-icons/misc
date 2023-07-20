@@ -9,7 +9,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
 - **Adobe** ([`SVG`](../../main/removed_icons/Adobe.svg))
   - *Reason:* [Not possible to setup 3rd party 2FA app option anymore](https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html).
 - **Aozora Securities** ([`SVG`](../../main/removed_icons/Aozora%20Securities.svg))
-  - *Reason:* Not login page was found from the website
+  - *Reason:* No login page was found from the website
 - **BlockFi** ([`SVG`](../../main/removed_icons/BlockFi.svg))
   - *Reason:* See FTX, they own them.
 - **Celsius** (*SVGs:* [`primary`](../../main/removed_icons/Celsius.svg), [`v1`](../../main/removed_icons/Celsius%20v1.svg))
