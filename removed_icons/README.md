@@ -45,7 +45,7 @@ All the icons that are removed are placed in here, **except** the ones that are 
 
 In December 2022, aegis-icons introducted redesigned set of generic icons (based of [Phosphor Icons](https://phosphoricons.com/)), with new background color that fits better for modern Android. These icons have been given more thought to symbol size, clarity, uniformity and style. In addition, seven new generic icons were released. [Reasons for redesign can be found from here](https://github.com/aegis-icons/aegis-icons/issues/722).
 
-**[File listing of generic icons with old design](https://github.com/aegis-icons/misc/tree/main/removed_icons/Generic)** (24 icons in total).
+- **[File listing of generic icons with old design](https://github.com/aegis-icons/misc/tree/main/removed_icons/Generic)** (24 icons in total).
 
 ## Removal of "unregulated (crypto) currency trading / investing platforms" related icons
 
