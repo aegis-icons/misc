@@ -28,6 +28,8 @@ All the icons that are removed are placed in here, **except** the ones that are 
   - *Reason:* Service no longer exists.
 - **Mixer** ([`SVG`](../../main/removed_icons/Mixer.svg))
   - *Reason:* Service no longer exists.
+- **Neeva** ([`SVG`](../../main/removed_icons/Neeva.svg))
+  - *Reason:* Service no longer exists.
 - **NewEgg alt** ([`SVG`](../../main/removed_icons/Newegg%20alt.svg))
   - *Reason:* Icon's logo isn't based of official branding.
 - **Nuri / Bitwala** (*SVGs:* [`Nuri primary`](../../main/removed_icons/Nuri.svg), [`Nuri bg.var`](../../main/removed_icons/Nuri%20bg.var.svg), [`Bitwala primary`](../../main/removed_icons/Bitwala.svg))
@@ -62,3 +64,9 @@ If we want only icons of truly trustworthy services, then this decision was nece
 
 - **[File listing of unregulated currency trading / investing platform icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/Unregulated%20trading%20and%20investing%20platforms)** (87 icons in total)
 - [Site list with reasons of removals](https://krisu.notion.site/699da4ac7dce464f8690e032bb340fc5) (75 services).
+
+## Removal of "BG update only" version changes
+
+In summer 2023, we removed icon versions that just were background color changes instead of logo redesigns / complete rebrandings to simplify contributing process.
+
+- **[File listing of "BG update only" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/BG%20only%20changes)** (22 icons in total)
