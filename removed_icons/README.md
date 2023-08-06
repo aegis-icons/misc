@@ -51,21 +51,21 @@ In December 2022, aegis-icons introducted redesigned set of generic icons (based
 
 In May 2023, aegis-icons banned requests and submissions of any unregulated currency trading / investing platforms. In the summer 2023, the current icons were checked and icons based of unregulated platforms were removed from the pack.
 
-This is controversal and admittedly @[krisu5](https://github.com/krisu5)'s personal decision (don't like most crypto invest companies), but there's proper reasons too:
+This is controversal decision for some, but there's proper reasons too:
 
 1. Too many requests for these platforms and high maintenance for it.
 2. So many of these platforms are scams / frauds or do money laundering
    - See: [FTX](https://en.wikipedia.org/wiki/FTX#Legal_process), [Celsius](https://www.forbes.com/sites/mitchellmartin/2023/01/05/celsius-founder-mashinsky-hit-with-fraud-suit-by-new-york-state/), [Samtrade FX](https://www.straitstimes.com/singapore/courts-crime/online-trading-platform-samtrade-fx-under-probe-by-police-mas-3-arrested), [Vauld](https://techcrunch.com/2022/08/12/india-seizes-46-million-from-crypto-exchange-vauld-in-money-laundering-probe/) etc.
-3. Checking regulation is the only way to *somewhat* certainly say of the legality of the company.
+3. Checking regulation is the only way to *somewhat* certainly verify the legality of the company.
 
 If we want only icons of truly trustworthy services, then this decision was necessary. Exceptions do occur for other kind of services too, but those are easier to handle in my opinion.
 
-**Reminder:** we are not only source for the icons and not associated with Beem Development, the developers of Aegis. You can download images from the net and use them as icons, create yourself or use one of the many generic icons from our pack. You can even create your own icon pack if you want to.
+**Reminder:** we are not only source for the icons and we are not associated with Beem Development, the developers of Aegis. You can download images from the net and use them as icons, create yourself or use one of the many generic icons from our pack. You can even create your own icon pack if you want to.
 
 - **[File listing of unregulated currency trading / investing platform icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/Unregulated%20trading%20and%20investing%20platforms)** (87 icons in total)
 - [Site list with reasons of removals](https://krisu.notion.site/699da4ac7dce464f8690e032bb340fc5) (75 services).
 
-## Removal of "BG update only" version changes
+## Removal of "BG update only" version icons
 
 In summer 2023, we removed icon versions that just were background color changes instead of logo redesigns / complete rebrandings to simplify contributing process.
 
