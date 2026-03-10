@@ -75,4 +75,4 @@ In summer 2023, we removed icon versions that just were background color changes
 
 To simplify our project for contributions, "outdated" icon category is now removed. [More info here](https://github.com/orgs/aegis-icons/discussions/975).
 
-- **[File listing of "Outdated" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/BG%20only%20changes)** (98 icons in total).
+- **[File listing of "Outdated" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/Outdated%20icons)** (98 icons in total).
