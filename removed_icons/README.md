@@ -69,4 +69,10 @@ If we want only icons of truly trustworthy services, then this decision was nece
 
 In summer 2023, we removed icon versions that just were background color changes instead of logo redesigns / complete rebrandings to simplify contributing process.
 
-- **[File listing of "BG update only" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/BG%20only%20changes)** (22 icons in total)
+- **[File listing of "BG update only" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/BG%20only%20changes)** (22 icons in total).
+
+## Removal of "Outdated" icons
+
+To simplify our project for contributions, "outdated" icon category is now removed. [More info here](https://github.com/orgs/aegis-icons/discussions/975).
+
+- **[File listing of "Outdated" icons](https://github.com/aegis-icons/misc/tree/main/removed_icons/BG%20only%20changes)** (98 icons in total).
