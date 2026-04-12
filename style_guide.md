@@ -20,11 +20,12 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 ### General
 
 - For _italics_, use `_ _` syntax instead of `* *`.
-  - **Reason:** more recognizable on the markup then asterisks, since asterisks are used commonly with **bold text:** `** **`.
+  - **Reason:** more recognizable on the markup then asterisks, since asterisks are commonly used with **bold text:** `** **`.
 - Do not combine bold and italic together, example: `**_don't do this_**`.
-  - **Reason:** read section about hierarchy level four headings.
-- Do not underline the body text, <ins>like this</ins>.
+  - **Reason:** read section about hierarchy level four (h4) headings.
+- Do not underline the text, <ins>like this</ins>.
   - **Reason:** too similar to links and details block's clickable object.
+- Only use horizontal line (`---`) for the top of hierarchy level four (h4) headings.
 
 ### Headings
 
@@ -32,9 +33,9 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
 
-- Max. heading level that can be used is **four.**
+- Max. heading level that can be used is **four** (h4).
 
-- For **hierarchy level four** (h4) headings, use also italic style and add horizontal line to the top, the format:
+- For **hierarchy level four** (h4) headings, add italic styling and horizontal line above, the format:
 
 ```md
 
@@ -43,7 +44,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 #### _This is h4_
 ```
 
-> _Reason:_ On the Github's Markdown files, h4's font-size is unfortunately similar to bold body text, italic makes the heading more distinguish. Horizontal line makes h4 easier to scan the seperation between the body text and next h4 section.
+> _Reason:_ On the Github's Markdown files, h4's font size is unfortunately similar to the bold body text, italic makes the heading more distinguish. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
 
 ### Line breaks
 
@@ -51,7 +52,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more consistently across the different platforms.
 
-> _Example:_ in Android, directly inserted emojis sometimes might use one colored font or not display at all).
+> _Example:_ in Android, directly inserted emojis sometimes might use one colored font or not display at all.
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
@@ -63,7 +64,7 @@ Use it for content that's not vital, here's the format that aegis-icons uses:
 <details>
 <summary>
   <samp><ins>
-    Name for the button to open and close the details
+    This is details block's clickable object to open / close the text
   </ins></samp>
 </summary>
 
