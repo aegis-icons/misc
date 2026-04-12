@@ -83,5 +83,9 @@ Use it for content that's not vital to most of the readers, here's the format th
 </summary>
 
 > The content, always insert content into "quoted text" syntax.
+>
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa.
+>
+> Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat. 
 
 </details>
