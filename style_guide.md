@@ -143,4 +143,4 @@ Use it for content that's not vital for most of the readers, here's the format t
 
 </details>
 
-[^1]: Meaning of the section in this context: it starts after heading element and ends just before next heading.
+[^1]: **Meaning of the section in this context:** it starts after the heading element and ends just before the next heading.
