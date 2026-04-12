@@ -4,16 +4,16 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 ## Useful links
 
-- [GitHub – Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [GitHub – Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
   - [Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts), unique feature in the GitHub Flavored Markdown; often used in the documentation.
   - [Emojis](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emojis), GitHub has own emoji system that works consistently across the different platforms compared to directly inserted emojis.
 
 - **GitHub Emoji resources**
-  - [emoji-cheat-sheet by ikatyang](https://github.com/ikatyang/emoji-cheat-sheet/blob/github-actions-auto-update/README.md), endorsed by GitHub.
-  - [Emoji Cheat Sheet by WebFX](https://www.webfx.com/tools/emoji-cheat-sheet/), search engine _(set "Click to copy" to "Shortcode")_.
-  - [AllGithubEmojis by jzeferino](https://jzeferino.github.io/AllGithubEmojis/), search engine _(outdated)_.
+  - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/github-actions-auto-update/README.md) by ikatyang, endorsed by GitHub.
+  - [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) by WebFX, search engine _(set "Click to copy" to "Shortcode")_.
+  - [AllGithubEmojis](https://jzeferino.github.io/AllGithubEmojis/) by jzeferino, search engine _(outdated)_.
   
-- ["HTML Tags You Can Use on GitHub" by seanh](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2)
+- [HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2) by seanh.
 
 ## Formatting
 
@@ -58,7 +58,7 @@ Resources for the emoji shortcodes, check the [useful links](#useful-links) sect
 
 ### Details block
 
-Use it for content that's not vital to most of the readers, here's the format that aegis-icons uses:
+Use it for content that's not vital for most of the readers, here's the format that aegis-icons uses:
 
 ```html
 <details>
@@ -69,6 +69,10 @@ Use it for content that's not vital to most of the readers, here's the format th
 </summary>
 
 > The content, always insert content into "quoted text" syntax.
+>
+> _Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa._
+>
+> _Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat._
 
 </details>
 ```
@@ -84,8 +88,8 @@ Use it for content that's not vital to most of the readers, here's the format th
 
 > The content, always insert content into "quoted text" syntax.
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa.
+> _Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa._
 >
-> Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat. 
+> _Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat._
 
 </details>
