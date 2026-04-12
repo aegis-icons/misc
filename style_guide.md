@@ -1,7 +1,8 @@
 # aegis-icons — Style guide
 
 These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
-<br><br>
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ## Useful links
 
@@ -16,7 +17,8 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
   
 - [HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2) by seanh.
 - [Basic Syntax](https://www.markdownguide.org/basic-syntax/) by Markdown Guide.
-<br>
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ## Formatting
 
@@ -25,21 +27,24 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 - For _italics_, use `_ _` syntax instead of `* *`.
   - **Reason:** more recognizable on the markup then asterisks, since asterisks are commonly used with **bold text:** `** **`.
 - Do not combine bold and italic together, example: `**_don't do this_**`.
-  - **Reason:** read section about hierarchy level four (h4) headings.
+  - **Reason:** read section about hierarchy level four (`h4`) headings.
 - Do not underline the text, <ins>like this</ins>.
   - **Reason:** too similar to links and [details block](#details-block)'s clickable object.
-- Only use horizontal line (`---`) for the top of the hierarchy level four (h4) headings.
-<br>
+- Horizontal line (`---`) is only reserved for the above of the hierarchy level four (`h4`) headings.
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ### Headings
 
-- Use singular **hierarchy level one** (h1) heading at the top of the document, syntax: `# This is h1`.
+- Use singular **hierarchy level one** (`h1`) heading at the top of the document, syntax: `# This is h1`.
 
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
 
-- Max. heading level that can be used is **four** (h4).
+- Max. heading level that can be used is **four** (`h4`).
 
-- For **hierarchy level four** (h4) headings, add italic styling to heading and horizontal line above, the format:
+- For **hierarchy level four** (`h4`) headings, add italic styling to heading and horizontal line (`---`) above
+
+*The format for `h4` heading:*
 
 ```markdown
 
@@ -48,8 +53,19 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 #### _This is h4_
 ```
 
-> **Reason:** On the GitHub's Markdown read view, h4's font size is unfortunately similar to the bold body text. The italic makes the heading more distinguish of bold body text. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
-<br>
+> **Reason:** On the GitHub's Markdown document, `h4`'s font size is unfortunately similar to the bold body text. The italic makes the heading more distinguished of bold body text. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
+
+> [!IMPORTANT]
+> Remove horizontal line (`---`) in situations when you're adding `h4` heading **right after** another heading.
+> 
+> **In practice (markup):**
+> ```markdown
+> ### This is h3
+>
+> #### _This is h4_
+> ```
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ### Alerts
 
@@ -60,55 +76,86 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 > **Reason:** multiple alerts in a row can overwhelm and confuse the reader. We have done this mistake before and try to avoid it in the future.
 
 The types of alerts are listed on [GitHub's documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
-<br><br>
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ### Emojis
 
-Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more consistently across the different platforms.
+Use GitHub's emoji shortcodes (example: :+1: is `:+1:`), because these work more consistently across the different platforms.
 
 > **Example:** on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
-<br><br>
 
-### Keyboard shortcuts and other user actions
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
-Stub
-<br><br>
+### Input actions
 
-### Extra line breaks
+#### _Keyboard shortcuts_
+
+Square brackets means that it's macOS equivalent for the key.
+
+Inside of the brackets, there's symbol of the key and name of the key.
+
+*Syntax:*
+
+```markdown
+<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
+```
+
+**In practice:**
+
+<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
+
+---
+
+#### _Menu actions_
+
+> [!IMPORTANT]
+> Always start with "_menu:_", so that reader understands it's a menu action.
+
+_Syntax:_
+
+```markdown
+*menu:* <kbd><i>1st object to click</i> ➜ <i>2nd object to click etc.</i></kbd>
+```
+
+**In practice:**
+
+_menu:_ <kbd><i>1st object to click</i> ➜ <i>2nd object to click etc.</i></kbd>
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+
+### Line break for sections
 
 > [!IMPORTANT]
 > **Don't do this if:**
-> - It's the end of `h4` section, if next one is also `h4`. Do it only if next one is `h3`.
-> - Between headings, for example: `h1` heading and after that, `h2` heading.
+> - It's the end of `h4` section **if next one is also `h4`**. Do it only if the next one is `h3`.
+> - Between headings, for example: `h1` heading and right after that, `h2` heading.
 
-To make [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) less dense and easier to scan, we're adding at least 2 line breaks to the end of the section[^1].
+To make Markdown documents less dense and easier to scan, we're forcing a line break to the end of the section[^1] with `<br>`.
 
-Normally, GitHub Flavored Markdown only allows adding 1 line break to readable text after adding 2 line breaks to the markup, so we also need to use `<br>` HTML tag to force more line breaks.
+HTML comments are added front and back of the `<br>` for better visualization for markup.
 
-Some cases, 3 line breaks are needed to get enough separation because of GitHub's Markdown CSS. **Preview first before committing.**
-
-**:bulb: Examples of extra line breaks:**
-
-_2 line breaks:_
+The markup line breaks in before and after `<br>` are important for successful section break. 
 
 ```markdown
-THIS SECTION ENDS...
-<br>
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+```
+
+**In practice (markup):**
+
+```markdown
+## THIS SECTION STARTS...
+
+...THIS SECTION ENDS...
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ## ...NEXT SECTION STARTS
 ```
 
-_3 line breaks:_
-
-```markdown
-THIS SECTION ENDS...
-<br><br>
-
-## ...NEXT SECTION STARTS
-```
-<br>
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ### Details block
 
@@ -122,16 +169,16 @@ Use it for content that's not vital for most of the readers, here's the format t
   </ins></samp>
 </summary>
 
-> The content, always insert content into "quoted text" syntax.
+> The content, always insert content into "blockquote" syntax.
 >
-> _Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa._
+> _Lorem ipsum dolor sit amet, consectetur adipiscing elit._
 >
-> _Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat._
+> _Sed orci tortor, accumsan at ornare sed, auctor non sapien._
 
 </details>
 ```
 
-**In action**:
+**In practice**:
 
 <details>
 <summary>
@@ -140,11 +187,11 @@ Use it for content that's not vital for most of the readers, here's the format t
   </ins></samp>
 </summary>
 
-> The content, always insert content into "quoted text" syntax.
+> The content, always insert content into "blockquote" syntax.
 >
-> _Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor dui, scelerisque efficitur metus quis, molestie aliquam sem. Integer quis sollicitudin nisl. Ut id tempor velit. Duis pharetra lorem at ante imperdiet semper. Sed at vulputate massa._
+> _Lorem ipsum dolor sit amet, consectetur adipiscing elit._
 >
-> _Sed orci tortor, accumsan at ornare sed, auctor non sapien. Integer bibendum, enim non tempus placerat, est urna varius erat, nec tincidunt dui mi eget sem. Vivamus sit amet dolor erat._
+> _Sed orci tortor, accumsan at ornare sed, auctor non sapien._
 
 </details>
 
