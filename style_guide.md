@@ -17,10 +17,10 @@ These are formatting guidelines that're used in the [CONTRIBUTING](https://githu
 ### General
 
 - For _italics_, use `_ _` syntax instead of `* *`.
-  - **Reason:** more recognizable then asterisks, since asterisks used commonly with bold text: `** **`
+  - **Reason:** more recognizable then asterisks, since asterisks used commonly with **bold text:** `** **`
 
 ### Headings
 
-- Use singular *hierarchy level one* heading at the top of the document.
+- Use singular *hierarchy level one* heading at the top of the document (ie. `# Heading 1`).
 
 ### Summary blocks
