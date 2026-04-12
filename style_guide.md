@@ -49,7 +49,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 ### Emojis
 
-Use GitHub's emoji shortcodes (examples: :+1: `:+1:`, :warning: `:warning:`), because these work more consistently across the different platforms.
+Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more consistently across the different platforms.
 
 > _Example:_ in Android, directly inserted emojis sometimes might use one colored font or not display at all).
 
