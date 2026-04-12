@@ -25,7 +25,7 @@ These are formatting guidelines that are used in the [CONTRIBUTING](https://gith
 
 - Use singular *hierarchy level one* heading at the top of the document, syntax: `# This is heading level 1`.
 
-### Summary blocks
+### Details block
 
 Use it for content that's not vital, here's the format that aegis-icons uses:
 
@@ -33,7 +33,7 @@ Use it for content that's not vital, here's the format that aegis-icons uses:
 <details>
 <summary>
   <samp><ins>
-    Name for the button to open and close summary
+    Name for the button to open and close the details
   </ins></samp>
 </summary>
 
