@@ -10,8 +10,8 @@ These are formatting guidelines that are used in the [CONTRIBUTING](https://gith
 
 - **GitHub Emoji resources**
   - [emoji-cheat-sheet by ikatyang](https://github.com/ikatyang/emoji-cheat-sheet/blob/github-actions-auto-update/README.md), endorsed by GitHub.
-  - [Emoji Cheat Sheet by WebFX](https://www.webfx.com/tools/emoji-cheat-sheet/), search engine *(set "Click to copy" to "Shortcode").
-  - [AllGithubEmojis](https://jzeferino.github.io/AllGithubEmojis/), search engine _(outdated)_.
+  - [Emoji Cheat Sheet by WebFX](https://www.webfx.com/tools/emoji-cheat-sheet/), search engine _(set "Click to copy" to "Shortcode")_.
+  - [AllGithubEmojis by jzeferino](https://jzeferino.github.io/AllGithubEmojis/), search engine _(outdated)_.
   
 - ["HTML Tags You Can Use on GitHub" by seanh](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2)
 
