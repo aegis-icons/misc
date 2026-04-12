@@ -21,6 +21,6 @@ These are formatting guidelines that're used in the [CONTRIBUTING](https://githu
 
 ### Headings
 
-- Use singular *hierarchy level one* heading at the top of the document (ie. `# Heading 1`).
+- Use singular *hierarchy level one* heading at the top of the document, i.e. `# Heading 1`.
 
 ### Summary blocks
