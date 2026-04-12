@@ -146,13 +146,13 @@ The markup line breaks in before and after `<br>` are important for successful s
 **In practice (markup):**
 
 ```markdown
-## THIS SECTION STARTS...
+## This section starts...
 
-...THIS SECTION ENDS...
+...this section ends...
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
-## ...NEXT SECTION STARTS
+## ...next section starts
 ```
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
