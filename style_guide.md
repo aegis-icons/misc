@@ -1,6 +1,6 @@
 # aegis-icons — Style guide
 
-These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
+These are the Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
