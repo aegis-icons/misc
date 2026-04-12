@@ -71,6 +71,11 @@ Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more co
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 <br><br>
 
+### Keyboard shortcuts and other user actions
+
+Stub
+<br><br>
+
 ### Extra line breaks
 
 > [!IMPORTANT]
@@ -80,9 +85,9 @@ Resources for the emoji shortcodes, check the [useful links](#useful-links) sect
 
 To make [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) less dense and easier to scan, we're adding at least 2 line breaks to the end of the section[^1].
 
-Normally GitHub Flavored Markdown only allows adding 1 line breaks to readable text after adding two line breaks to the markup, so we also need to use `<br>` HTML tag to force more line breaks.
+Normally, GitHub Flavored Markdown only allows adding 1 line break to readable text after adding 2 line breaks to the markup, so we also need to use `<br>` HTML tag to force more line breaks.
 
-Sometimes 3 line breaks are needed to get enough separation, because of GitHub's Markdown CSS. **Preview first before committing.**
+Some cases, 3 line breaks are needed to get enough separation because of GitHub's Markdown CSS. **Preview first before committing.**
 
 **:bulb: Examples of extra line breaks:**
 
