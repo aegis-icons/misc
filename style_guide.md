@@ -82,7 +82,7 @@ To make [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CO
 
 Normally GitHub Flavored Markdown only allows adding 1 line breaks to readable text after adding two line breaks to the markup, so we also need to use `<br>` HTML tag to force more line breaks.
 
-Sometimes 3 line breaks are needed to get enough separation, because of GitHub's Markdown CSS. Preview first before committing.
+Sometimes 3 line breaks are needed to get enough separation, because of GitHub's Markdown CSS. **Preview first before committing.**
 
 **:bulb: Examples of extra line breaks:**
 
