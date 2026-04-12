@@ -66,7 +66,7 @@ The types of alerts are listed on [GitHub's documentation](https://docs.github.c
 
 Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more consistently across the different platforms.
 
-> _Example:_ on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
+> **Example:** on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 <br><br>
