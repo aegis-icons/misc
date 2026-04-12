@@ -28,7 +28,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 ### Headings
 
-- Use singular **hierarchy level one** (h1) heading at the top of the document, syntax: `# This is heading level 1`.
+- Use singular **hierarchy level one** (h1) heading at the top of the document, syntax: `# This is h1`.
 
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
 
@@ -36,10 +36,11 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 - For **hierarchy level four** (h4) headings, use also italic and add horizontal line to the top, the format:
 
-```
+```md
+
 ---
 
-#### _Level four heading here_
+#### _This is h4_
 ```
 
 > _Reason:_ On the Github's Markdown files, h4's font-size is unfortunately similar to bold body text, italic makes the heading more distinguish. Horizontal line makes h4 easier to scan the seperation between the body text and next h4 section.
@@ -50,7 +51,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 Use it for content that's not vital, here's the format that aegis-icons uses:
 
-```
+```html
 <details>
 <summary>
   <samp><ins>
