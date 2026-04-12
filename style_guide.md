@@ -24,8 +24,8 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 - Do not combine bold and italic together, example: `**_don't do this_**`.
   - **Reason:** read section about hierarchy level four (h4) headings.
 - Do not underline the text, <ins>like this</ins>.
-  - **Reason:** too similar to links and details block's clickable object.
-- Only use horizontal line (`---`) for the top of hierarchy level four (h4) headings.
+  - **Reason:** too similar to links and [details block](#details-block)'s clickable object.
+- Only use horizontal line (`---`) for the top of the hierarchy level four (h4) headings.
 
 ### Headings
 
@@ -35,7 +35,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 - Max. heading level that can be used is **four** (h4).
 
-- For **hierarchy level four** (h4) headings, add italic styling and horizontal line above, the format:
+- For **hierarchy level four** (h4) headings, add italic styling to heading and horizontal line above, the format:
 
 ```md
 
@@ -44,7 +44,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 #### _This is h4_
 ```
 
-> _Reason:_ On the Github's Markdown files, h4's font size is unfortunately similar to the bold body text, italic makes the heading more distinguish. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
+> _Reason:_ On the GitHub's Markdown read view, h4's font size is unfortunately similar to the bold body text. The italic makes the heading more distinguish of bold body text. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
 
 ### Line breaks
 
@@ -52,13 +52,13 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more consistently across the different platforms.
 
-> _Example:_ in Android, directly inserted emojis sometimes might use one colored font or not display at all.
+> _Example:_ on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
 ### Details block
 
-Use it for content that's not vital, here's the format that aegis-icons uses:
+Use it for content that's not vital to most of the readers, here's the format that aegis-icons uses:
 
 ```html
 <details>
@@ -72,3 +72,16 @@ Use it for content that's not vital, here's the format that aegis-icons uses:
 
 </details>
 ```
+
+**In action**:
+
+<details>
+<summary>
+  <samp><ins>
+    This is details block's clickable object to open / close the text
+  </ins></samp>
+</summary>
+
+> The content, always insert content into "quoted text" syntax.
+
+</details>
