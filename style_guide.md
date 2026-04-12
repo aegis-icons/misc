@@ -1,7 +1,7 @@
 # aegis-icons — Style guide
 
 These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
-<br>
+<br><br>
 
 ## Useful links
 
@@ -60,7 +60,7 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 > **Reason:** multiple alerts in a row can overwhelm and confuse the reader. We have done this mistake before and try to avoid it in the future.
 
 The types of alerts are listed on [GitHub's documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
-<br>
+<br><br>
 
 ### Emojis
 
@@ -69,7 +69,7 @@ Use GitHub's emoji shortcodes (example: :+1: `:+1:`), because these work more co
 > _Example:_ on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
-<br>
+<br><br>
 
 ### Extra line breaks
 
@@ -84,7 +84,7 @@ Normally GitHub Flavored Markdown only allows adding 1 line breaks to readable t
 
 Sometimes 3 line breaks are needed to get enough separation, because of GitHub's Markdown CSS. Preview first before committing.
 
-**Examples of extra line breaks:**
+**:bulb: Examples of extra line breaks:**
 
 _2 line breaks:_
 
