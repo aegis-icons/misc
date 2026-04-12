@@ -1,11 +1,11 @@
 # aegis-icons — Style guide
 
-These are formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
+These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
 
 ## Useful links
 
 - [GitHub – Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-  - [Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts), unique feature in the GitHub flavored markdown; often used in the documentation.
+  - [Alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts), unique feature in the GitHub Flavored Markdown; often used in the documentation.
   - [Emojis](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emojis), GitHub has own emoji system that works consistently across the different platforms compared to directly inserted emojis.
 
 - **GitHub Emoji resources**
@@ -20,11 +20,31 @@ These are formatting guidelines that are used in the [CONTRIBUTING](https://gith
 ### General
 
 - For _italics_, use `_ _` syntax instead of `* *`.
-  - **Reason:** more recognizable then asterisks, since asterisks are used commonly with **bold text:** `** **`.
+  - **Reason:** more recognizable on the markup then asterisks, since asterisks are used commonly with **bold text:** `** **`.
+- Do not combine bold and italic together, example: `**_don't do this_**`.
+  - **Reason:** read section about hierarchy level four headings.
+- Do not underline the body text, <ins>like this</ins>.
+  - **Reason:** too similar to links and details block's clickable object.
 
 ### Headings
 
-- Use singular *hierarchy level one* heading at the top of the document, syntax: `# This is heading level 1`.
+- Use singular **hierarchy level one** (h1) heading at the top of the document, syntax: `# This is heading level 1`.
+
+- Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
+
+- Max. heading level is **four.**
+
+- For **hierarchy level four** (h4) headings, use also italic and add horizontal line to the top, the format:
+
+```
+---
+
+#### _Level four heading here_
+```
+
+> _Reason:_ On the Github's Markdown files, h4's font-size is unfortunately similar to bold body text, italic makes the heading more distinguish. Horizontal line makes h4 easier to scan the seperation between the body text and next h4 section.
+
+### Line breaks
 
 ### Details block
 
