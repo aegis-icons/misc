@@ -32,9 +32,9 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
 
-- Max. heading level is **four.**
+- Max. heading level that can be used is **four.**
 
-- For **hierarchy level four** (h4) headings, use also italic and add horizontal line to the top, the format:
+- For **hierarchy level four** (h4) headings, use also italic style and add horizontal line to the top, the format:
 
 ```md
 
@@ -46,6 +46,14 @@ These are Markdown / HTML formatting guidelines that are used in the [CONTRIBUTI
 > _Reason:_ On the Github's Markdown files, h4's font-size is unfortunately similar to bold body text, italic makes the heading more distinguish. Horizontal line makes h4 easier to scan the seperation between the body text and next h4 section.
 
 ### Line breaks
+
+### Emojis
+
+Use GitHub's emoji shortcodes (examples: :+1: `:+1:`, :warning: `:warning:`), because these work more consistently across the different platforms.
+
+> _Example:_ in Android, directly inserted emojis sometimes might use one colored font or not display at all).
+
+Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
 ### Details block
 
