@@ -30,7 +30,6 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
   - **Reason:** read section about hierarchy level four (`h4`) headings.
 - Do not underline the text, <ins>like this</ins>.
   - **Reason:** too similar to links and [details block](#details-block)'s clickable object.
-- Horizontal line (`---`) is only reserved for the above of the hierarchy level four (`h4`) headings.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
@@ -42,28 +41,9 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 
 - Max. heading level that can be used is **four** (`h4`).
 
-- For **hierarchy level four** (`h4`) headings, add italic styling to heading and horizontal line (`---`) above
+- For **hierarchy level four** (`h4`) headings, add italic: `#### _This is h4_`
 
-*The format for `h4` heading:*
-
-```markdown
-
----
-
-#### _This is h4_
-```
-
-> **Reason:** On the GitHub's Markdown document, `h4`'s font size is unfortunately similar to the bold body text. The italic makes the heading more distinguished of bold body text. Horizontal line makes it easier to scan the separation between the body text and next h4 section.
-
-> [!IMPORTANT]
-> Remove horizontal line (`---`) in situations when you're adding `h4` heading **right after** another heading.
-> 
-> **In practice (markup):**
-> ```markdown
-> ### This is h3
->
-> #### _This is h4_
-> ```
+> **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
@@ -72,8 +52,17 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - Use minimal amount of alerts per section[^1].
   - **Recommended:** 1.
   - **Maximum:** 2.
-  
-> **Reason:** multiple alerts in a row can overwhelm and confuse the reader. We have done this mistake before and try to avoid it in the future.
+
+> **Reason:** multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future.
+
+:bulb: **If you have several notices, group them inside of single alert** if possible.
+
+**In practice:**
+
+> [!NOTE]
+> - The first notice
+> - The second notice
+> - The third notice etc.
 
 The types of alerts are listed on [GitHub's documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
 
@@ -93,11 +82,13 @@ Resources for the emoji shortcodes, check the [useful links](#useful-links) sect
 
 #### _Keyboard shortcuts_
 
+Add keyboard key inside of `<kdb>` tag.
+
 Square brackets means that it's macOS equivalent for the key.
 
 Inside of the brackets, there's symbol of the key and name of the key.
 
-*Syntax:*
+_Syntax:_
 
 ```markdown
 <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
@@ -107,35 +98,46 @@ Inside of the brackets, there's symbol of the key and name of the key.
 
 <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
 
----
+**Snippets for keys:**
+
+```markdown
+<kbd>Ctrl [⌘ Cmd]</kbd>
+```
+```markdown
+<kbd>Alt [⌥ Option]</kbd>
+```
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 #### _Menu actions_
 
 > [!IMPORTANT]
 > Always start with "_menu:_", so that reader understands it's a menu action.
 
+Use `<kdb>` and `<i>` tags together for menu objects.
+
+Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
+
 _Syntax:_
 
 ```markdown
-*menu:* <kbd><i>1st object to click</i> ➜ <i>2nd object to click etc.</i></kbd>
+_menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd object to click etc.</i></kbd>
 ```
 
 **In practice:**
 
-_menu:_ <kbd><i>1st object to click</i> ➜ <i>2nd object to click etc.</i></kbd>
+_menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd object to click etc.</i></kbd>
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
 ### Line break for sections
 
 > [!IMPORTANT]
-> **Don't do this if:**
-> - It's the end of `h4` section **if next one is also `h4`**. Do it only if the next one is `h3`.
-> - Between headings, for example: `h1` heading and right after that, `h2` heading.
+> **Do not place line break between headings**, _example:_ `h1` heading and right after that, `h2` heading.
 
 To make Markdown documents less dense and easier to scan, we're forcing a line break to the end of the section[^1] with `<br>`.
 
-HTML comments are added front and back of the `<br>` for better visualization for markup.
+HTML comments are added front and back of the `<br>` for easier visualization when editing markup.
 
 The markup line breaks in before and after `<br>` are important for successful section break. 
 
