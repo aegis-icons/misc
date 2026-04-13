@@ -88,6 +88,8 @@ Square brackets means that it's macOS equivalent for the key.
 
 Inside of the brackets, there's symbol of the key and name of the key.
 
+---
+
 _Syntax:_
 
 ```markdown
@@ -117,6 +119,8 @@ _Syntax:_
 Use `<kdb>` and `<i>` tags together for menu objects.
 
 Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
+
+---
 
 _Syntax:_
 
