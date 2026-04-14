@@ -36,11 +36,8 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 ### Headings
 
 - Use singular **hierarchy level one** (`h1`) heading at the top of the document, syntax: `# This is h1`.
-
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
-
 - Max. heading level that can be used is **four** (`h4`).
-
 - For **hierarchy level four** (`h4`) headings, add italic: `#### _This is h4_`
 
   > **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
