@@ -143,7 +143,11 @@ To make Markdown documents less dense and easier to scan, we're forcing a line b
 
 HTML comments are added front and back of the `<br>` for easier visualization when editing markup.
 
-The markup line breaks in before and after `<br>` are important for successful section break. 
+The markup line breaks in before and after `<br>` are important for successful section break.
+
+---
+
+_Syntax:_
 
 ```markdown
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
@@ -165,7 +169,11 @@ The markup line breaks in before and after `<br>` are important for successful s
 
 ### Details block
 
-Use it for content that's not vital for most of the readers, here's the format that aegis-icons uses:
+Use it for content that's not vital for most of the readers.
+
+---
+
+_Syntax:_
 
 ```markdown
 <details>
