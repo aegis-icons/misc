@@ -43,7 +43,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 
 - For **hierarchy level four** (`h4`) headings, add italic: `#### _This is h4_`
 
-> **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
+  > **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
 
@@ -52,9 +52,9 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - Use minimal amount of alerts per section[^1].
   - **Recommended:** 1.
   - **Maximum:** 2.
-- Avoid putting them in the row.
+- Avoid putting them in a row.
 
-> **Reason:** More then 2 alerts and multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future. In cases where you want to notify with more then 2 alerts, use emojis and bold text instead.
+  > **Reason:** More then 2 alerts and multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future. In cases where you want to notify with more then 2 alerts, use emojis and bold text instead.
 
 :bulb: **If you have several notices, group them inside of single alert** if possible.
 
@@ -73,7 +73,7 @@ The types of alerts are listed on [GitHub's documentation](https://docs.github.c
 
 Use GitHub's emoji shortcodes (example: :+1: is `:+1:`), because these work more consistently across the different platforms.
 
-> **Example:** on Android, directly inserted emojis sometimes might use one colored symbol instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
+> **Example:** on Android, directly inserted emojis sometimes might use one colored symbols instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
