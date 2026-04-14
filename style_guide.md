@@ -52,8 +52,9 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - Use minimal amount of alerts per section[^1].
   - **Recommended:** 1.
   - **Maximum:** 2.
+- Avoid putting them in the row.
 
-> **Reason:** multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future.
+> **Reason:** More then 2 alerts and multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future. In cases where you want to notify with more then 2 alerts, use emojis and bold text instead.
 
 :bulb: **If you have several notices, group them inside of single alert** if possible.
 
