@@ -86,6 +86,8 @@ Square brackets means that it's macOS equivalent for the key.
 
 Inside of the brackets, there's symbol of the key and name of the key.
 
+Use capital letters for letter keys.
+
 ---
 
 _Syntax:_
