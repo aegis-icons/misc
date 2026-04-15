@@ -113,10 +113,8 @@ _Syntax:_
 
 #### _Menu actions_
 
-> [!IMPORTANT]
-> Always start with "_menu:_", so that reader understands it's a menu action.
-
 - Use `<kdb>` and `<i>` tags together for menu objects.
+- If it's multiple menu item action, start sentence with "_menu:_" (syntax: `_menu:_`).
 - Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
 
 ---
@@ -124,12 +122,17 @@ _Syntax:_
 _Syntax:_
 
 ```markdown
-_menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd object to click etc.</i></kbd>
+<kbd><i>Name of single item to click</i></kbd>
+```
+```markdown
+_menu:_ <kbd><i>name of 1st item to click</i></kbd> ➜ <kbd><i>name of 2nd item to click etc.</i></kbd>
 ```
 
 **In practice:**
 
-_menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd object to click etc.</i></kbd>
+If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu.
+
+_Menu:_ <kbd><i>Object</i> ➜ <i>Compound Path</i> ➜ <i>Make</i></kbd>.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
