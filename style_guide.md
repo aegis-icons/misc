@@ -35,7 +35,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 
 ### Headings
 
-- Use singular **hierarchy level one** (`h1`) heading at the top of the document, syntax: `# This is h1`.
+- Use single **hierarchy level one** (`h1`) heading at the top of the document, syntax: `# This is h1`.
 - Use nested heading hierarchy, [example](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation).
 - Max. heading level that can be used is **four** (`h4`).
 - For **hierarchy level four** (`h4`) headings, add italic: `#### _This is h4_`
@@ -51,7 +51,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
   - **Maximum:** 2.
 - Avoid putting them in a row.
 
-  > **Reason:** More then 2 alerts and multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future. In cases where you want to notify with more then 2 alerts, use emojis and – if needed – bold text instead.
+  > **Reason:** More then 2 alerts per section / multiple alerts in a row can overwhelm the reader. We have done this mistake before and try to avoid it in the future. In cases where you want to notify with more then 2 alerts, use emojis and – if needed – bold text instead.
 
 :bulb: **If you have several notices, group them inside of single alert** if possible.
 
@@ -90,7 +90,7 @@ Resources for the emoji shortcodes, check the [useful links](#useful-links) sect
 _Syntax:_
 
 ```markdown
-<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
+<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>Shift</kbd>+<kbd>(letter, number etc.)</kbd>
 ```
 
 **In practice:**
@@ -113,9 +113,9 @@ _Syntax:_
 
 #### _Menu actions_
 
-- Use `<kdb>` and `<i>` tags together for menu objects.
+- Use `<kdb>` and `<i>` tags together for menu items.
 - If it's multiple menu item action, start sentence with "_menu:_" (syntax: `_menu:_`).
-- Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
+- Add this unicode arrow between menu items: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
 
 ---
 
