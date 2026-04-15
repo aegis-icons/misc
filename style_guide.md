@@ -216,6 +216,6 @@ _Syntax:_
 
 ### Footnotes
 
-Don't use footnotes **unless** you'll explain the same thing more than once.
+Don't use footnotes **unless** you'll need to explain the same thing more than once.
 
 [^1]: **Meaning of the section in this context:** it starts after the heading syntax and ends just before the next heading syntax.
