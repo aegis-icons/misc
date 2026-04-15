@@ -101,10 +101,13 @@ _Syntax:_
 **Snippets for keys:**
 
 ```markdown
-<kbd>Ctrl [⌘ Cmd]</kbd>
+<kbd>Ctrl [⌘ Cmd]</kbd>+
 ```
 ```markdown
-<kbd>Alt [⌥ Option]</kbd>
+<kbd>Alt [⌥ Option]</kbd>+
+```
+```markdown
+<kbd>Shift</kbd>+<kbd></kdb>
 ```
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
