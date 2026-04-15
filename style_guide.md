@@ -68,9 +68,9 @@ The types of alerts are listed on [GitHub's documentation](https://docs.github.c
 
 ### Emojis
 
-Use GitHub's emoji shortcodes (example: :+1: is `:+1:`), because these work more consistently across the different platforms.
+Use GitHub's emoji shortcodes (for example, :+1: is `:+1:`), because these work more consistently across the different platforms then directly inserted emojis.
 
-> **Example:** on Android, directly inserted emojis sometimes might use one colored symbols instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
+> **Example:** on Android and Windows, directly inserted emojis sometimes might use one colored symbols instead of multicolor emojis or only display as box (a.k.a. [tofu](https://fonts.google.com/knowledge/glossary/tofu)).
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
@@ -80,13 +80,10 @@ Resources for the emoji shortcodes, check the [useful links](#useful-links) sect
 
 #### _Keyboard shortcuts_
 
-Add keyboard key inside of `<kdb>` tag.
-
-Square brackets means that it's macOS equivalent for the key.
-
-Inside of the brackets, there's symbol of the key and name of the key.
-
-Use capital letters for letter keys.
+- Add keyboard key inside of `<kdb>` tag.
+- Square brackets means that it's macOS equivalent for the key.
+  - Inside of the brackets, there's symbol of the key and name of the key.
+- Use capital letters for letter keys.
 
 ---
 
@@ -119,9 +116,8 @@ _Syntax:_
 > [!IMPORTANT]
 > Always start with "_menu:_", so that reader understands it's a menu action.
 
-Use `<kdb>` and `<i>` tags together for menu objects.
-
-Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
+- Use `<kdb>` and `<i>` tags together for menu objects.
+- Add this unicode arrow between menu objects: `➜` _(known as [Heavy Round-Tipped Rightwards Arrow](https://www.compart.com/en/unicode/U+279C), `U+279C`)._
 
 ---
 
