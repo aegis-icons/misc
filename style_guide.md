@@ -132,7 +132,7 @@ _menu:_ <kbd><i>name of 1st item to click</i></kbd> ➜ <kbd><i>name of 2nd item
 
 If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu.
 
-_Menu:_ <kbd><i>Object</i> ➜ <i>Compound Path</i> ➜ <i>Make</i></kbd>.
+_Menu:_ <kbd><i>Object</i></kbd> ➜ <kbd><i>Compound Path</i></kbd> ➜ <kbd><i>Make</i></kbd>.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
