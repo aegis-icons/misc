@@ -2,7 +2,7 @@
 
 These are the Markdown / HTML formatting guidelines that are used in the [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ## Useful links
 
@@ -18,7 +18,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - [HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2) by seanh.
 - [Basic Syntax](https://www.markdownguide.org/basic-syntax/) by Markdown Guide.
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ## Formatting
 
@@ -31,7 +31,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - Do not underline the text, <ins>like this</ins>.
   - **Reason:** too similar to links and [details block](#details-block)'s clickable object.
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Headings
 
@@ -42,7 +42,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 
   > **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Alerts
 
@@ -64,7 +64,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 
 The types of alerts are listed on [GitHub's documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Emojis
 
@@ -74,7 +74,7 @@ Use GitHub's emoji shortcodes (example: :+1: is `:+1:`), because these work more
 
 Resources for the emoji shortcodes, check the [useful links](#useful-links) section.
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Input actions
 
@@ -112,7 +112,7 @@ _Syntax:_
 <kbd>Shift</kbd>+<kbd></kdb>
 ```
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 #### _Menu actions_
 
@@ -135,7 +135,7 @@ _menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd ob
 
 _menu:_ <kbd><i>name of 1st object to click</i></kbd> ➜ <kbd><i>name of 2nd object to click etc.</i></kbd>
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Line break for sections
 
@@ -153,7 +153,7 @@ The markup line breaks in before and after `<br>` are important for successful s
 _Syntax:_
 
 ```markdown
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 ```
 
 **In practice (markup):**
@@ -163,12 +163,12 @@ _Syntax:_
 
 ...this section ends...
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ## ...next section starts
 ```
 
-<!-- SECTION BREAK --> <br> <!-- SECTION BREAK --> 
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
 ### Details block
 
@@ -211,5 +211,11 @@ _Syntax:_
 > _Sed orci tortor, accumsan at ornare sed, auctor non sapien._
 
 </details>
+
+<!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
+
+### Footnotes
+
+Don't use footnotes **unless** you'll explain the same thing more than once.
 
 [^1]: **Meaning of the section in this context:** it starts after the heading syntax and ends just before the next heading syntax.
