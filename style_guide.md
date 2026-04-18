@@ -40,7 +40,7 @@ These are the Markdown / HTML formatting guidelines that are used in the [CONTRI
 - Max. heading level that can be used is **four** (`h4`).
 - For **hierarchy level four** (`h4`) headings, add italic: `#### _This is h4_`
 
-  > **Reason:** On the GitHub's Markdown document, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
+  > **Reason:** In the GitHub's Markdown documents, `h4` has unfortunately similar font-size and weight to the bold body text. The italic makes the heading more distinguished of the bold body text.
 
 <!-- SECTION BREAK --> <br> <!-- SECTION BREAK -->
 
