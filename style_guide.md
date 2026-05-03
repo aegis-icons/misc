@@ -184,6 +184,7 @@ _Syntax:_
     This is details block's clickable object to open / close the text
   </ins></samp>
 </summary>
+<br>
 
 > The content, always insert content into "blockquote" syntax.
 >
@@ -202,6 +203,7 @@ _Syntax:_
     This is details block's clickable object to open / close the text
   </ins></samp>
 </summary>
+<br>
 
 > The content, always insert content into "blockquote" syntax.
 >
